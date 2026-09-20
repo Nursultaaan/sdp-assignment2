@@ -20,7 +20,7 @@ class MageEquipmentFactory implements EquipmentFactory {
     public Weapon createWeapon() {
         return new MagicStaff();
     }
-    
+
     @Override
     public Armor createArmor() {
         return new MagicRobe();
